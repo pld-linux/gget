@@ -1,0 +1,17 @@
+diff -urN gget-0.0.4/data/gget.desktop.in gget-0.0.4.new/data/gget.desktop.in
+--- gget-0.0.4/data/gget.desktop.in	2008-12-20 12:35:51.000000000 +0100
++++ gget-0.0.4.new/data/gget.desktop.in	2008-12-22 14:55:19.000000000 +0100
+@@ -1,6 +1,5 @@
+ [Desktop Entry]
+ Version=1.0
+-Encoding=UTF-8
+ _Name=GGet Download Manager
+ _GenericName=Download Manager
+ _Comment=Download files from the Internet
+@@ -9,5 +8,5 @@
+ StartupNotify=true
+ Terminal=false
+ Type=Application
+-Categories=GNOME;GTK;Application;Network;
++Categories=GNOME;GTK;Network;
+ MimeType=application/metalink+xml;
