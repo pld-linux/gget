@@ -5,7 +5,7 @@ Summary:	Download manager for GNOME
 Summary(pl.UTF-8):	Zarządca pobierania plików dla GNOME
 Name:		gget
 Version:	0.0.4
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Applications/Networking
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gget/0.0/%{name}-%{version}.tar.bz2
@@ -31,7 +31,8 @@ BuildRequires:	python-pygtk-devel >= 2:2.12.0
 BuildRequires:	python-pynotify-devel >= 0.1.1
 BuildRequires:	rpmbuild(macros) >= 1.311
 Requires(post,postun):	desktop-file-utils
-Requires(post,postun):	gtk+2
+Requires(post,postun):	gtk-update-icon-cache
+Requires(post,postun):	hicolor-icon-theme
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
